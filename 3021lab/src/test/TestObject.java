@@ -1,6 +1,7 @@
-package base;
+package test;
 
 import java.util.Date;
+import base.*;
 
 public class TestObject {
 
@@ -13,6 +14,6 @@ public class TestObject {
 		
 		System.out.println(postFromFriend.contains("first"));
 		System.out.println(postFromFriend.contains("HKUST"));
-		
+		//System.out.println("YO");
 	}
 }

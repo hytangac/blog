@@ -45,13 +45,13 @@ public class post {
 		return ans;
 	}
 	
-	/*public int hashCode() {
+	public int hashCode() {
 		int hashCode = 0;
 		
 		hashCode = date.hashCode() + content.hashCode();
 		
 		return hashCode;
-	}*/
+	}
 	
 	/** check whether this post contains some keyword*/
 	public boolean contains(String keyword){
